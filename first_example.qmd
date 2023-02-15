@@ -1,0 +1,12 @@
+---
+title: "Первый пример"
+editor: source
+---
+
+```{r}
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+library(checkdown)
+```
+
+

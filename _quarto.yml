@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Учимся Quarto"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Главная
+      - text: Примеры
+        menu:
+          - first_example.qmd
+          - second_example.qmd
