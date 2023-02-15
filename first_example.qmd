@@ -5,8 +5,48 @@ editor: source
 
 ```{r}
 #| include: false
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, results = 'asis')
 library(checkdown)
+```
+
+Некоторые упраженения можно легко вставить используя мой [пакет `checkdown`](https://agricolamz.github.io/checkdown/).
+
+Напишите *кефир*
+
+```{r}
+check_question(answer = "кефира", 
+               wrong = "Неверно", 
+               right = "Верно!", 
+               button_label = "Проверить")
+```
+
+Что я сегодня выпил на завтрак?
+
+```{r}
+check_question(answer = "чай", 
+               options = c("пиво", "кофе", "чай", "молоко"), 
+               wrong = "Неверно", 
+               right = "Верно!", 
+               button_label = "Проверить")
+```
+
+
+```{r}
+check_question(answer = "чай", 
+               options = c("пиво", "кофе", "чай", "молоко"), 
+               type = "radio",
+               wrong = "Неверно", 
+               right = "Верно!", 
+               button_label = "Проверить")
+```
+
+```{r}
+check_question(answer = c("чай", "молоко"), 
+               options = c("пиво", "кофе", "чай", "молоко"), 
+               type = "checkbox",
+               wrong = "Неверно", 
+               right = "Верно!", 
+               button_label = "Проверить")
 ```
 
 
