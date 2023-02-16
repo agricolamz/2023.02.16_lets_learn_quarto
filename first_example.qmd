@@ -14,7 +14,7 @@ library(checkdown)
 Напишите *кефир*
 
 ```{r}
-check_question(answer = "кефира", 
+check_question(answer = "кефир", 
                wrong = "Неверно", 
                right = "Верно!", 
                button_label = "Проверить")
