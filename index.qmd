@@ -33,6 +33,9 @@ Github --- это крупнейшая платформа для разрабо�
 - минус `-` -
 - дефис `--` --
 - тере `---` ---
+- `[ссылка на наш сайт](https://agricolamz.github.io/2023.02.16_lets_learn_quarto/first_example.html)` [ссылка на наш сайт](https://agricolamz.github.io/2023.02.16_lets_learn_quarto/first_example.html)
+- `![](images/milk.png)` ![](images/milk.png)
+
 
 ### Кусочки
 
