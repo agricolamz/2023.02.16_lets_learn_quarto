@@ -11,4 +11,7 @@ website:
         menu:
           - first_example.qmd
           - second_example.qmd
+          - Gubina.qmd
+          - kikilo.qmd
+          - markova.qmd
           - moroz.qmd
