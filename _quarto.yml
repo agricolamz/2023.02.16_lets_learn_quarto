@@ -11,3 +11,4 @@ website:
         menu:
           - first_example.qmd
           - second_example.qmd
+          - moroz.qmd
