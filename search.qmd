@@ -1,0 +1,9 @@
+---
+title: "Поиск"
+---
+
+```{r}
+#| echo: false
+DT::datatable(readxl::read_xlsx("data.xlsx"))
+```
+
