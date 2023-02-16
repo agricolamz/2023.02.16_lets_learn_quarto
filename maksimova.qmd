@@ -10,6 +10,6 @@
 И снова ночь седая[^sedaya]
 Никак не отпускает меня..
 
-[^sedaya]: ![](images/sedoy.png)
+[^sedaya]: ![](images/sedoy.jpg)
 
 
